@@ -1,3 +1,7 @@
-remote_theme: minima
-title: [EX BER BER TEA]
-description: [Life is all about passion.]
+remote_theme: pages-themes/minima
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: [果不其然]
+description: [My Eureka Moments]
+# visitors count
+counter: true
