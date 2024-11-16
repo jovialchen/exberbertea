@@ -16,19 +16,28 @@ layout: default
 
 
 
-      <h1>Mindmap Example</h1>
-    <div class="mermaid">
-        mindmap
-        root((Our Areas))
-            Technology
-            Leadership
-            Wellness
-            Play
-            Love
-                Family
-                Friendship
-                Pets
-                Plants
-            Fortune
-            Philosophy
-    </div>
+
+
+
+
+
+
+
+
+```mermaid
+mindmap
+    root((Our Areas))
+        Technology
+        Leadership
+        Wellness
+        Play
+        Love
+            Relationship
+            Family
+            Friendship
+            Pets
+            Plants
+        Fortune
+        Philosophy
+```
+
