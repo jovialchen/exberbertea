@@ -24,7 +24,7 @@ layout: default
 
 
 
-```mermaid
+```mermaid!
 mindmap
     root((Our Areas))
         Technology
