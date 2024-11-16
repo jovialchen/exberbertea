@@ -5,6 +5,7 @@ title: 用 VS Code 打造个性化笔记系统
 categories: life_canvas
 tags:
   - 记笔记
+author: joyce
 ---
 
 ### 为什么选择 VS Code？Part 1

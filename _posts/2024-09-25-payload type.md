@@ -5,6 +5,7 @@ title: RTP中的Payload Type
 categories: tech_coding
 tags:
   - codec
+author: joyce
 ---
 
 这是我在工作中日日打交道的一个小常识， 今天找一下相关的文献整理一下。

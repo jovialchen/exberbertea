@@ -5,6 +5,7 @@ title: 笔记与自我管理工具使用记录及评测(个人向)
 categories: life_canvas
 tags:
   - 记笔记
+author: joyce
 ---
   
 ## 当前使用  

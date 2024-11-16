@@ -5,6 +5,7 @@ title: 运用程序员多年的工作经验的养成的习惯整理笔记
 categories: life_canvas
 tags:
   - 记笔记
+author: joyce
 ---
 
 ## 在研究各种笔记软件的时候看到好多程序员熟悉的模式
