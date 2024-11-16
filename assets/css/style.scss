@@ -1,3 +1,45 @@
 ---
 ---
 @import "jekyll-theme-primer";
+
+
+/* General button_fancy styling */
+.button_fancy {
+    display: inline-block;        /* Ensures it behaves like a button_fancy */
+    padding: 15px 30px;          /* Adjust for desired size */
+    font-size: 1.2rem;           /* Make text larger */
+    text-align: center;          /* Center the text */
+    text-decoration: none;       /* Remove underline */
+    color: white;                /* Text color */
+    background-color: #007bff;   /* Background color (fancy blue) */
+    border-radius: 50px;         /* Makes it rounded */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+    transition: all 0.3s ease;   /* Smooth hover effects */
+}
+
+/* Hover effect */
+.button_fancy:hover {
+    background-color: #0056b3;   /* Darker shade on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    transform: translateY(-2px); /* Slight lift */
+}
+
+/* Active button_fancy effect */
+.button_fancy:active {
+    background-color: #003f7f;   /* Even darker shade */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+    transform: translateY(1px);  /* Slight press down */
+}
+
+/* Make sure the list items don't affect button_fancy alignment */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;               /* Horizontal alignment */
+    gap: 10px;                   /* Spacing between button_fancys */
+}
+
+li {
+    margin: 0;                   /* Remove any default list margins */
+}
