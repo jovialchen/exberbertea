@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-10-10
-categories: just_fun
+categories: Play
 title: 读书笔记 - 《我看见的世界》
 tags:
     - 读书笔记

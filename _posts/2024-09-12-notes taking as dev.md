@@ -2,7 +2,7 @@
 layout: post
 date: 2024-09-12
 title: 运用程序员多年的工作经验的养成的习惯整理笔记
-categories: life_canvas
+categories: Leadership
 tags:
   - 记笔记
 author: joyce

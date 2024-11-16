@@ -2,7 +2,7 @@
 layout: post
 date: 2024-09-13
 title: 用 VS Code 打造个性化笔记系统
-categories: life_canvas
+categories: Leadership
 tags:
   - 记笔记
 author: joyce
