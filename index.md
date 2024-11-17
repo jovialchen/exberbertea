@@ -24,7 +24,7 @@ layout: default
 
 
 
-@startmermaid
+```mermaid!
 mindmap
     root((Our Areas))
         Technology
@@ -39,4 +39,4 @@ mindmap
             Plants
         Fortune
         Philosophy
-@endmermaid
+```
