@@ -37,7 +37,13 @@
     </div>
 
 
-
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/+esm';
+      mermaid.initialize({ startOnLoad: false });
+      await mermaid.run({
+        querySelector: '.language-mermaid',
+      });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
