@@ -31,7 +31,7 @@ mindmap
         Leadership
         Wellness
         Play
-        Love
+        <a href=www.google.com>Love</a>
             Relationship
             Family
             Friendship
