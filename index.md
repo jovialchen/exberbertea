@@ -46,17 +46,26 @@ mindmap
 
 
 <div class="mindmap">
-    <div class="node root"><a href="#">Our Areas</a></div>
-    <div class="node"><a href="/categories/technology/">Technology</a></div>
-    <div class="node"><a href="/categories/leadership/">Leadership</a></div>
-    <div class="node"><a href="/categories/wellness/">Wellness</a></div>
-    <div class="node"><a href="/categories/play/">Play</a></div>
-    <div class="node"><a href="/categories/love/">Love</a></div>
-    <div class="node"><a href="/categories/relationship/">Relationship</a></div>
-    <div class="node"><a href="/categories/family/">Family</a></div>
-    <div class="node"><a href="/categories/friendship/">Friendship</a></div>
-    <div class="node"><a href="/categories/pets/">Pets</a></div>
-    <div class="node"><a href="/categories/plants/">Plants</a></div>
-    <div class="node"><a href="/categories/fortune/">Fortune</a></div>
-    <div class="node"><a href="/categories/philosophy/">Philosophy</a></div>
+    <a href="#" class="node root">Our Areas</a>
+    <a href="/categories/technology/" class="node technology">Technology</a>
+    <a href="/categories/leadership/" class="node leadership">Leadership</a>
+    <a href="/categories/wellness/" class="node wellness">Wellness</a>
+    <a href="/categories/play/" class="node play">Play</a>
+    <a href="/categories/love/" class="node love">Love</a>
+    <a href="/categories/fortune/" class="node fortune">Fortune</a>
+    <a href="/categories/philosophy/" class="node philosophy">Philosophy</a>
+    <a href="/categories/relationship/" class="node relationship">Relationship</a>
+    <a href="/categories/family/" class="node family">Family</a>
+    <a href="/categories/friendship/" class="node friendship">Friendship</a>
+    <a href="/categories/pets/" class="node pets">Pets</a>
+    <a href="/categories/plants/" class="node plants">Plants</a>
+
+    <!-- Lines -->
+    <div class="line technology"></div>
+    <div class="line leadership"></div>
+    <div class="line wellness"></div>
+    <div class="line play"></div>
+    <div class="line love"></div>
+    <div class="line fortune"></div>
+    <div class="line philosophy"></div>
 </div>
