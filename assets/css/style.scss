@@ -46,3 +46,44 @@ ul {
 li {
     margin: 0;                   /* Remove any default list margins */
 }
+
+/*mindmap in index.mindmap*/
+
+.mindmap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.node {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.node a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.node:hover {
+    transform: scale(1.05);
+}
+
+.root {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.root a {
+    color: #fff;
+}
