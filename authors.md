@@ -4,7 +4,7 @@ title: Yo Yo Ho
 layout: default
 ---
 
-<ul class="author-cloud">
+<ul class="tag-cloud">
 {% for author in site.authors %}
   <li style="font-size: {{ author | last | size | times: 100 | divided_by: site.authors.size | plus: 70  }}%">
     <a href="#{{ author | first | slugize }}">
