@@ -4,11 +4,8 @@ date: 2024-11-28
 title: "Lead Now: 我的领导力提升之旅"
 categories: Leadership
 tags:
-  - girls
-author:
-   - 喜甜
-   - 静谦
-   - 六月
+  - "Lead Now"
+author: 喜甜
 ---
 
 
