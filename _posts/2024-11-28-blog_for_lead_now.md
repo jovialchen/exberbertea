@@ -5,7 +5,10 @@ title: "Lead Now: 我的领导力提升之旅"
 categories: Leadership
 tags:
   - "Lead Now"
-author: 喜甜
+author: 
+   - 喜甜
+   - 静谦
+   - 六月
 ---
 
 
