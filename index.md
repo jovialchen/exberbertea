@@ -23,7 +23,6 @@ layout: default
 
 
 
-
 <pre class="mermaid">
 mindmap
     root((Our Areas))
