@@ -13,15 +13,12 @@ layout: default
         
         {% if month_year != currentMonth %}
           {% unless forloop.first %}
-            </ul>
           {% endunless %}
           <h2>{{ month }} {{ year }}</h2>
-          <ul>
           {% assign currentMonth = month_year %}
         {% endif %}
         
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a>- {{ post.date | date: "%Y-%m-%d" }}</li>
+        <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a>- {{ post.date | date: "%Y-%m-%d" }}</h4>
       {% endfor %}
-      </ul>
     </section>
   </div>
