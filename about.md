@@ -3,7 +3,7 @@ permalink: /about/
 title: Yo Yo Ho
 layout: default
 ---
-About us
+# About us
 <pre class="mermaid">
 mindmap
     root((静谦))
