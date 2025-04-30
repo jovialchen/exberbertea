@@ -206,5 +206,3 @@ mindmap
       AI辅助海报设计
       AI辅助表情包设计
 </pre>
-
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
