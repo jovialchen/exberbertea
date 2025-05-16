@@ -3,3 +3,7 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: [EX BER BER TEA]
 description: [A Study Group of Women Engineers]
+include:
+  - images
+  - assets
+  - gallery
