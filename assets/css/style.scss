@@ -46,3 +46,14 @@ ul {
 li {
     margin: 0;                   /* Remove any default list margins */
 }
+
+.image-item img {
+  width: 200px;       /* 缩略图宽度，可根据需要调整 */
+  height: auto;       /* 保持纵横比 */
+  cursor: pointer;    /* 鼠标悬停时显示可点击手型 */
+  transition: 0.3s;   /* 可选：悬停时淡入淡出效果 */
+}
+
+.image-item img:hover {
+  opacity: 0.8;       /* 可选：鼠标悬停时半透明效果 */
+}
