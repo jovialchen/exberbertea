@@ -8,6 +8,13 @@
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+      
+    <!-- Lightbox2 CSS（CDNJS 2.11.5） -->
+          
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css"
+      > <!-- :contentReference[oaicite:3]{index=3} -->
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -41,5 +48,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
     <script>anchors.add();</script>
+    <!-- jQuery（Lightbox2 依赖） -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJ+Y5i7mghjE6Vp5x+3fQNXx8p+HFcZ3Ih7E0="
+      crossorigin="anonymous"
+    ></script> <!-- :contentReference[oaicite:4]{index=4} -->
+
+    <!-- Lightbox2 JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"
+    ></script> <!-- :contentReference[oaicite:5]{index=5} -->
+
+    <script>
+      // 可选：Lightbox2 配置
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      }); // :contentReference[oaicite:6]{index=6}
+    </script>
   </body>
 </html>
