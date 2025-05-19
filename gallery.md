@@ -7,7 +7,7 @@ layout: default
     <h1>Ex Ber Ber Tea's Art Space</h1>
     <div class="gallery">
         <div class="image-item">
-            <img src="twisted_fantasy.png" alt="Image 1" onclick="openLightbox(this)" />
+            <img src="twisted_fantasy.jpg" alt="Image 1" onclick="openLightbox(this)" />
             <div class="caption">May 17, 2025<br>画画课作业-一幅表达情感的画<br><strong>Twisted Fantasy</strong><br>作者:桃慕</div>
         </div>
         <div class="image-item">
