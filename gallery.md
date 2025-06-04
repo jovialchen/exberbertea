@@ -11,7 +11,7 @@ layout: default
             <div class="caption">May 17, 2025<br>画画课作业-一幅表达情感的画<br><strong>Twisted Fantasy</strong><br>作者:桃慕</div>
         </div>
         <div class="image-item">
-            <img src="twisted_fantasy.jpg" alt="Image 1" onclick="openLightbox(this)" />
+            <img src="june_garden.jpg" alt="Image 1" onclick="openLightbox(this)" />
             <div class="caption">May 29, 2025<br>画画课作业-一幅表达情感的画<br><strong>爷爷奶奶家的小院</strong><br>作者:六月</div>
         </div>
         <div class="image-item">
