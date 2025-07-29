@@ -7,11 +7,11 @@ layout: default
     <h1>Ex Ber Ber Tea's Art Space</h1>
     <div class="gallery">
         <div class="image-item">
-            <img src="june_lotus.jpg" alt="Image 1" onclick="openLightbox(this)" />
+            <img src="joyce_lotus.jpg" alt="Image 1" onclick="openLightbox(this)" />
             <div class="caption">July 28, 2025<br>画画课作业-荷花<br><strong>一枝荷花</strong><br>作者:桃慕</div>
         </div>
         <div class="image-item">
-            <img src="joyce_lotus.jpg" alt="Image 1" onclick="openLightbox(this)" />
+            <img src="june_lotus.jpg" alt="Image 1" onclick="openLightbox(this)" />
             <div class="caption">July 05, 2025<br>画画课作业-荷花<br><strong>一枝荷花</strong><br>作者:六月</div>
         </div>
         <div class="image-item">
