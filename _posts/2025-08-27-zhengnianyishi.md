@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2025-07-29
+date: 2025-08-27
 title: "正念饮食练习引导词"
-categories: Play
+categories: Wellness
 tags:
-  - "表情包"
+  - "正念"
 authors: 
   - 桃慕
   - 静谦
