@@ -9,8 +9,7 @@ tags:
   - IDE
   - Development
 authors:
-  - Anna Meng
-  - Vicki Yang
+  - 桃慕
 ---
 
 ## 1. IDE 核心能力对比：Rules 与 Skills
