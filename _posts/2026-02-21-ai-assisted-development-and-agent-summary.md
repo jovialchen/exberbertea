@@ -2,7 +2,7 @@
 layout: post
 date: 2026-02-21
 title: "2026年2月 AI 辅助开发+Agent 总结"
-categories: AI
+categories: Technology
 tags:
   - AI
   - Agent
