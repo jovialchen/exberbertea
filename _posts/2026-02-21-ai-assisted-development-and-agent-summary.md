@@ -1,9 +1,6 @@
 ---
 create_date: 2026-02-21
 type: Research
-source:
-  - Anna Meng
-  - Vicki Yang
 categories:
   - Technology
 authors:
