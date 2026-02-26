@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 date: 2026-02-26
 title: Deep Agents HITL 机制：人工审批中断的完整实现
@@ -22,7 +22,7 @@ HITL 的核心实现依赖于：
 2. **LangGraph `interrupt` / `Command(resume=...)` 机制** — 底层的暂停/恢复原语
 3. **`InterruptOnConfig`** — 每个工具的中断配置（允许的决策类型、描述等）
 
-```mermaid
+<pre class="mermaid">
 graph LR
     A[LLM 生成 Tool Call] --> B{interrupt_on 配置?}
     B -- "True / InterruptOnConfig" --> C[HumanInTheLoopMiddleware]
@@ -33,7 +33,7 @@ graph LR
     F -- reject --> H[返回拒绝消息给 LLM]
     F -- edit --> I[修改参数后执行]
     B -- "False / 未配置" --> G
-```
+</pre>
 
 ## 核心数据模型
 
@@ -57,7 +57,7 @@ interrupt_on: dict[str, bool | InterruptOnConfig] | None
 
 `HumanInTheLoopMiddleware` 始终是 Middleware 栈的**最后一层**。这意味着它在所有其他 Middleware 处理完毕后才介入，确保拦截的是最终要执行的工具调用。
 
-```mermaid
+<pre class="mermaid">
 graph TB
     subgraph "主代理 Middleware 栈"
         M1[TodoListMiddleware] --> M2[MemoryMiddleware]
@@ -72,13 +72,13 @@ graph TB
     end
 
     style M10 fill:#ff6b6b,color:#fff
-```
+</pre>
 
 ## 完整执行流程
 
 ### 基本流程
 
-```mermaid
+<pre class="mermaid">
 sequenceDiagram
     participant User as 用户
     participant Agent as Deep Agent
@@ -122,13 +122,13 @@ sequenceDiagram
 
     Agent->>LLM: 继续推理（带 ToolMessage 结果）
     LLM-->>User: 最终响应
-```
+</pre>
 
 ## 并行工具调用的处理
 
 当 LLM 在一次响应中发出多个工具调用时，HITL 会将需要审批的调用**批量收集**，一次性呈现给用户：
 
-```mermaid
+<pre class="mermaid">
 graph TD
     A[LLM 返回 3 个 ToolCalls] --> B{逐个检查 interrupt_on}
 
@@ -145,7 +145,7 @@ graph TD
     F --> G["Command(resume={decisions: [approve, approve]})"]
     G --> H[sample_tool 执行]
     G --> I[get_soccer_scores 执行]
-```
+</pre>
 
 ## CLI 中的 HITL 实现
 
